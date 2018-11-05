@@ -1,0 +1,17 @@
+{
+  "id": "jonnyhou/regularized-linear-models",
+  "id_no": 2022117,
+  "title": "Regularized Linear Models",
+  "code_file": "regularized-linear-models.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "house-prices-advanced-regression-techniques"
+  ]
+}
