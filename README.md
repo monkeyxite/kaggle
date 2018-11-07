@@ -25,11 +25,27 @@ kernels push
 ```
 be noted that the datasets location is different in local station or kaggel, so creat extra path to handle the difference in ipynb
 ```python
-if sys.platform =="linux":
+import os
+import sys
+if sys.platform == "linux":
     path = "../input/"
 else:
-    path = "../../../competitions/house-prices-advanced-regression-techniques/"
+    root = os.getcwd()
+    path = os.path.join(root, "../../competitions/house-prices-advanced-regression-techniques/")
+    path = os.path.realpath(path)+"/"
 train = pd.read_csv(path+"train.csv")
-test = pd.read_csv(path+"test.csv")    
+test = pd.read_csv(path+"test.csv")
 ```
-it looks rough, but works by now till a better way found.
+It looks rough, but works by now till a better way found.
+
+## Contents
+
+1. Playground
+2. House prices prediction by using linear regression.
+
+
+## Reference
+
+* ISL-python repo for ISLR
+* ml-math
+
