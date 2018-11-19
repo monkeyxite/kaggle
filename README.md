@@ -46,6 +46,6 @@ It looks rough, but works by now till a better way found.
 
 ## Reference
 
-* ISL-python repo for ISLR
-* ml-math
+* [ISL-python repo](https://github.com/monkeyxite/ISL) for [ISLR](https://www-bcf.usc.edu/~gareth/ISL/)
+* [ml-math](https://github.com/monkeyxite/ml-math)
 
